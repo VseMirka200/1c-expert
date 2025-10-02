@@ -15,4 +15,9 @@ e42c0d6b-59d9-4ce2-ba4e-83d5da0cbd23
 {4,"_$InfoBase$_.DumpStart",7},
 {4,"_$InfoBase$_.DumpFinish",8},
 {4,"_$InfoBase$_.DBConfigUpdateStart",9},
-{4,"_$InfoBase$_.DBConfigUpdate",10}
+{4,"_$InfoBase$_.DBConfigUpdate",10},
+{4,"_$Transaction$_.Begin",11},
+{4,"_$Data$_.New",12},
+{5,dbf07d02-d0c5-41cb-8d17-124f1b220c04,"Документ.СчетНаОплату",1},
+{4,"_$Data$_.Post",13},
+{4,"_$Transaction$_.Commit",14}
