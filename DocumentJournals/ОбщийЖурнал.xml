@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<DocumentJournal uuid="3db63f01-0dc5-4500-b759-15dda213c5b0">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentJournalSelection.ОбщийЖурнал" category="Selection">
+				<xr:TypeId>0b75bcad-ab98-4a24-8783-d9862164d291</xr:TypeId>
+				<xr:ValueId>878d2cd6-c112-433a-b1d6-226115850135</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalList.ОбщийЖурнал" category="List">
+				<xr:TypeId>f331159b-4c30-47b2-96a9-0362469cc22a</xr:TypeId>
+				<xr:ValueId>584e9cc2-7c29-427a-a0b0-039a1fbf8c88</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalManager.ОбщийЖурнал" category="Manager">
+				<xr:TypeId>111187d3-2513-4d72-9996-a84b8ba9ee3e</xr:TypeId>
+				<xr:ValueId>c0718147-7daf-4fd0-8f3d-57480d20393b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ОбщийЖурнал</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Общий журнал</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<DefaultForm/>
+			<AuxiliaryForm/>
+			<UseStandardCommands>true</UseStandardCommands>
+			<RegisteredDocuments>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПоступлениеТоваров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ЗаказТоваров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.СчетНаОплату</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.РеализацияТоваров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ОказаниеУслуг</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.РегистрацияЦен</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ВыпискаБанка</xr:Item>
+			</RegisteredDocuments>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+		</Properties>
+		<ChildObjects/>
+	</DocumentJournal>
+</MetaDataObject>
